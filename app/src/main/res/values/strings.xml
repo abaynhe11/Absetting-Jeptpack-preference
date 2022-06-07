@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">AbSetting Jetpack-preference</string>
+    <string-array name="entries">
+        <item>First Value</item>
+        <item>Second Value</item>
+        <item>Third Value</item>
+    </string-array>
+
+    <string-array name="entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string name="title_preference"><b>You</b> <i>are</i> <u>awesome</u></string>
+    <string name="summary_preference">You can use some styles in your preferences by using the described way.</string>
+    <string name="dialog_title_preference">dialog title preference</string>
+    <string name="advanced_attributes">advanced attributes</string>
+    <string name="title_stylish_preference">title stylish preference</string>
+    <string name="summary_stylish_preference">summary stylish preference</string>
+    <string name="title">ABAY SETTING SAMPE CODE</string>
+</resources>

@@ -1,0 +1,24 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <Preference
+        app:title="Basic Preferences"
+        app:summary="Here you will find some of the Basic Preferences"
+        app:fragment="com.google.firebase.quickstart.auth.absettingjetpack_preference.MainActivity$BasicPreferences"/>
+
+    <Preference
+        app:title="Widget Preferences"
+        app:summary="Here you will find some of the Widget Preferences"
+        app:fragment="com.google.firebase.quickstart.auth.absettingjetpack_preference.MainActivity$WidgetPreferences"/>
+
+    <Preference
+        app:title="Dialog Preferences"
+        app:summary="Here you will find some of the Dialog Preferences"
+        app:fragment="com.google.firebase.quickstart.auth.absettingjetpack_preference.MainActivity$DialogPreferences"/>
+
+    <Preference
+        app:title="@string/advanced_attributes"
+        app:summary="Here you will find Expandable Preferences"
+        app:fragment="com.google.firebase.quickstart.auth.absettingjetpack_preference.MainActivity$ExpandablePreferences"/>
+
+</PreferenceScreen>

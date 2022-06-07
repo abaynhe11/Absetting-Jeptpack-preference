@@ -1,0 +1,30 @@
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:title="Learning Preferences">
+
+        <Preference
+            app:key="preference"
+            app:title="Simple Text Heading"
+            app:summary="Here is my description. Read for more information"/>
+
+        <Preference
+            app:key="stylized"
+            app:title="@string/title_stylish_preference"
+            app:summary="@string/summary_stylish_preference"/>
+
+        <Preference
+            app:key="icon"
+            app:title="I am using Icon"
+            app:summary="You can use the icons stored in the Drawable directory"
+            app:icon="@drawable/ic_android_black_24dp"/>
+
+        <Preference
+            app:key="single_line_title"
+            app:title="Hi! I am a very big title. Even you can't imagin how bif I am "
+            app:summary="Here only one line is used for the Title. But in the summary more than one lines are used"
+            app:singleLineTitle="true" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

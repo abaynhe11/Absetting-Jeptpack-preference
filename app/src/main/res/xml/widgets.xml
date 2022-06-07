@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        app:key="checkbox_example"
+        app:title="@string/title_preference"
+        app:summary="@string/summary_preference"/>
+    <SwitchPreferenceCompat
+        app:key="switch_example"
+        app:title="@string/title_preference"
+        app:summary="@string/summary_preference"/>
+    <DropDownPreference
+        app:key="dropdown_example"
+        app:title="@string/title_preference"
+        app:useSimpleSummaryProvider="true"
+        app:entries="@array/entries"
+        app:entryValues="@array/entry_values"/>
+    <SeekBarPreference
+        app:key="seekbar_example"
+        app:title="@string/title_preference"
+        app:defaultValue="20"/>
+
+</PreferenceScreen>
